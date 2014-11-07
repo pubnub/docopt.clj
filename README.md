@@ -1,3 +1,7 @@
+# PUBNUB FORK
+
+Forked because the upstream project has not accepted the pull request
+
 # docopt.clj
 
 Clojure implementation of the [docopt](http://docopt.org/) language, version 0.6, 
