@@ -6,6 +6,6 @@
   :profiles {:test {:dependencies [[org.clojure/data.json "0.2.1"]]}}
   :aot :all
  
-  :mirrors {#".+" {:name "pubnub" :url "http://maven.devbuild.pubnub.com:8081/artifactory/repo"}} 
-  :deploy-repositories [["releases" {:url "http://maven.devbuild.pubnub.com:8081/artifactory/ext-release-local"}]
-                        ["snapshots" {:url "http://maven.devbuild.pubnub.com:8081/artifactory/ext-snapshot-local"}]])
+  :mirrors {#".+" {:name "pubnub" :url "http://artifactory1.us-east-1.pubnub.com:8081/artifactory/repo"}} 
+  :deploy-repositories [["releases" {:url "http://artifactory1.us-east-1.pubnub.com:8081/artifactory/ext-release-local" :sign-releases false}]
+                        ["snapshots" {:url "http://artifactory1.us-east-1.pubnub.com:8081/artifactory/ext-snapshot-local" :sign-releases false}]])
